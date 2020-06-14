@@ -1,0 +1,84 @@
+
+body{
+    background-color: #FFEB3B;
+}
+#header{
+    background-color: #FFC107;
+    width: auto;
+    margin: 6%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    font-family: arial;
+    text-transform: uppercase;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+.banner {
+    background-color: #FFEB3B;
+    color: white;
+
+}
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner__text-hero{
+    padding: 90px 1 1 90px;
+    font-family: sans-serif ;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    
+}
+#main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+    min-height: 900px;
+
+}
+#main article {
+    margin: 0 auto;
+    padding: 4px;
+    border: 3px solid #4CAF50;
+    border-radius: 15px;
+    background-color: #CDDC39;
+    order: 2;
+    flex: 3 1 60%;
+    font-family: arial;
+    font-size: 15px;
+}
+h2{
+    text-transform: uppercase;
+    color: black;
+    font-family: sans-serif;
+}
+.beneficios{
+    margin: 0 auto;
+    padding: 3px;
+    border: 3px solid #FF5722;
+    border-radius: 15px;
+    background-color: #FF9800;
+
+}
+.beneficios_texto{
+    font-family: arial;
+    font-size: 15px;
+    border-top: 22px solid red;
+    padding: 2px;
+
+}
+.expansion{
+    margin: 0 auto;
+    padding: 4px;
+    border: 3px solid #4CAF50;
+    border-radius: 15px ;
+    background-color: #CDDC39;
+    font-family: arial;
+    font-size: 15px;
+}
